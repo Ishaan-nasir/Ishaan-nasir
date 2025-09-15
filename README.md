@@ -33,6 +33,4 @@
 - [[LinkedIn](https://www.linkedin.com/in/ishaan-nasir-12bb72379/)  ]
 - Email: Contact.ishaannasir@gmail.com
 
-![Ishaan's GitHub stats](https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&theme=radical)
 
