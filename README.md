@@ -8,7 +8,7 @@
 ## 🔭 I’m currently working on
  - AI-powered automation projects at Triaxon (Cold-calling agent, RAG agent, lead-gen scrapers)
  - Developing a FinTech SaaS platform to bring transparency, AI-assisted tax filing, and smart financial tools (scaling beyond India)
- - Modern, scroll-driven websites for clients
+ - Designing modern, scroll-driven websites with smooth UI/UX for clients
 
 ---
 
@@ -33,5 +33,6 @@
 - [[LinkedIn](https://www.linkedin.com/in/ishaan-nasir-12bb72379/)  ]
 - Email: Contact.ishaannasir@gmail.com
 
-
+![Ishaan's GitHub stats](https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&theme=radical)
 
