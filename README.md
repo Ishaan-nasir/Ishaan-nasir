@@ -1,6 +1,6 @@
 ## 👋 Hi, I’m Ishaan Nasir
 
-🚀 Co-founder at [Triaxon Automations](#)  
+🚀 Co-founder at [Triaxon Automations](https://www.triaxon.in)  
 💡 Building AI agents, automations, and modern web platforms  
 
 ---
@@ -30,7 +30,7 @@
 ---
 
 ## 📫 Let’s Connect!  
-- [[LinkedIn](#)  ] (https://www.linkedin.com/in/ishaan-nasir-12bb72379/)
+- [[LinkedIn](https://www.linkedin.com/in/ishaan-nasir-12bb72379/)  ]
 - Email: Contact.ishaannasir@gmail.com
 
 
