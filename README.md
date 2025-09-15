@@ -25,8 +25,8 @@
 🔹 **[Cold-Calling AI Agent](https://github.com/Ishaan-nasir/Cold-Calling-AI-Agent)** – Automated outbound calling workflow  
 🔹 **[RAG Knowledge Agent](#)** – Document-based retrieval + AI Q&A  
 🔹 **[Google Maps Lead Scraper](https://github.com/Ishaan-nasir/Google-Maps-Lead-Generator)** – Lead gen automation using n8n + Apify Api  
-🔹 **[FAST Eduventures Website](#)** – Scroll-driven modern UI  
-🔹 **[Arduino Cancer Detection](#)** – Low-cost early detection prototype  
+🔹 **[Project Jarv](https://github.com/Ishaan-nasir/Project-Jarv)** – Personal assistant for more than everyday tasks :)
+
 
 ---
 
