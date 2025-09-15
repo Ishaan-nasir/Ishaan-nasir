@@ -21,7 +21,7 @@
 ---
 
 ## 📌 Featured Projects  
-🔹 **[Cold-Calling AI Agent](#)** – Automated outbound calling workflow  
+🔹 **[Cold-Calling AI Agent](https://github.com/Ishaan-nasir/Cold-Calling-AI-Agent)** – Automated outbound calling workflow  
 🔹 **[RAG Knowledge Agent](#)** – Document-based retrieval + AI Q&A  
 🔹 **[LinkedIn Lead Scraper](#)** – Lead gen automation using n8n + Proxycurl  
 🔹 **[FAST Eduventures Website](#)** – Scroll-driven modern UI  
