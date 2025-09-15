@@ -16,14 +16,15 @@
 - **AI & Automation**: n8n, Pinecone, Supabase, RAG, Cold-Calling AI Agents, Lead Generator, Scrapers
 - **Web Development**: React, Next.js, Tailwind, Vercel  
 - **Hardware/IoT**: Arduino, IDAS (Impact Detection & Alert System),Early Lung Cancer Detection Prototype  
-- **Marketing Tech**: Chatbots, Google & Meta Ads Automation, 
+- **Marketing Tech**: Chatbots, Google & Meta Ads Automation 
+- **Generative AI**: Gemini Veo 3, Nano Banana, v0 by vercel, lovable.dev
 
 ---
 
 ## 📌 Featured Projects  
 🔹 **[Cold-Calling AI Agent](https://github.com/Ishaan-nasir/Cold-Calling-AI-Agent)** – Automated outbound calling workflow  
 🔹 **[RAG Knowledge Agent](#)** – Document-based retrieval + AI Q&A  
-🔹 **[Google Maps Lead Scraper](https://github.com/Ishaan-nasir/Google-Maps-Lead-Generator)** – Lead gen automation using n8n + Apify Api
+🔹 **[Google Maps Lead Scraper](https://github.com/Ishaan-nasir/Google-Maps-Lead-Generator)** – Lead gen automation using n8n + Apify Api  
 🔹 **[FAST Eduventures Website](#)** – Scroll-driven modern UI  
 🔹 **[Arduino Cancer Detection](#)** – Low-cost early detection prototype  
 
