@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="banner">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#07021a"/>
+      <stop offset="0.45" stop-color="#1d0740"/>
+      <stop offset="0.78" stop-color="#5c1163"/>
+      <stop offset="1"    stop-color="#b02472"/>
+    </linearGradient>
+
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#ffe259"/>
+      <stop offset="0.5" stop-color="#ff7a45"/>
+      <stop offset="1"   stop-color="#ff2e88"/>
+    </linearGradient>
+
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0433"/>
+      <stop offset="1" stop-color="#05010f"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff2e88" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff2e88" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="textglow" x="-30%" y="-60%" width="160%" height="260%">
+      <feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#ff2e88" flood-opacity="0.75"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#ff2e88" flood-opacity="0.4"/>
+    </filter>
+
+    <clipPath id="sunClip"><rect x="400" y="60" width="200" height="112"/></clipPath>
+    <clipPath id="floor"><rect x="0" y="172" width="1000" height="108"/></clipPath>
+  </defs>
+
+  <rect width="1000" height="280" fill="url(#sky)"/>
+
+  <g fill="#ffffff">
+    <circle cx="90"  cy="38"  r="1.2" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="72"  r="1"   opacity="0.5"><animate attributeName="opacity" values="0.5;0.15;0.5" dur="4.3s" repeatCount="indefinite"/></circle>
+    <circle cx="265" cy="30"  r="1.4" opacity="0.7"><animate attributeName="opacity" values="0.7;0.2;0.7"  dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="340" cy="58"  r="0.9" opacity="0.45"/>
+    <circle cx="700" cy="44"  r="1.3" opacity="0.75"><animate attributeName="opacity" values="0.75;0.2;0.75" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="86"  r="1"   opacity="0.5"/>
+    <circle cx="865" cy="34"  r="1.2" opacity="0.65"><animate attributeName="opacity" values="0.65;0.18;0.65" dur="4.9s" repeatCount="indefinite"/></circle>
+    <circle cx="935" cy="66"  r="0.9" opacity="0.4"/>
+  </g>
+
+  <g clip-path="url(#sunClip)">
+    <circle cx="500" cy="172" r="96" fill="url(#sun)"/>
+    <g fill="#1d0740">
+      <rect x="400" y="120" width="200" height="3"  opacity="0.55"/>
+      <rect x="400" y="131" width="200" height="4"  opacity="0.65"/>
+      <rect x="400" y="144" width="200" height="5"  opacity="0.75"/>
+      <rect x="400" y="158" width="200" height="6"  opacity="0.85"/>
+      <rect x="400" y="170" width="200" height="8"  opacity="0.95"/>
+    </g>
+  </g>
+
+  <ellipse cx="500" cy="174" rx="300" ry="30" fill="url(#glow)"/>
+
+  <rect x="0" y="172" width="1000" height="108" fill="url(#ground)"/>
+  <rect x="0" y="171" width="1000" height="1.4" fill="#ff5fa2" opacity="0.9"/>
+
+  <g clip-path="url(#floor)" stroke="#ff3d8b" fill="none">
+
+    <g stroke-width="1" opacity="0.45">
+      <path d="M500 172 L-520 280"/><path d="M500 172 L-220 280"/>
+      <path d="M500 172 L20 280"/>  <path d="M500 172 L200 280"/>
+      <path d="M500 172 L330 280"/> <path d="M500 172 L430 280"/>
+      <path d="M500 172 L500 280"/>
+      <path d="M500 172 L570 280"/> <path d="M500 172 L670 280"/>
+      <path d="M500 172 L800 280"/> <path d="M500 172 L980 280"/>
+      <path d="M500 172 L1220 280"/><path d="M500 172 L1520 280"/>
+    </g>
+
+    <g stroke-width="1.4">
+      <path d="M0 172H1000" opacity="0">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite" begin="0s"
+          keyTimes="0;0.2;0.4;0.6;0.8;1"
+          values="M0 172H1000;M0 174H1000;M0 181H1000;M0 201H1000;M0 233H1000;M0 281H1000"/>
+        <animate attributeName="opacity" dur="4s" repeatCount="indefinite" begin="0s"
+          keyTimes="0;0.15;0.85;1" values="0;0.75;0.75;0"/>
+      </path>
+      <path d="M0 172H1000" opacity="0">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite" begin="-0.5s"
+          keyTimes="0;0.2;0.4;0.6;0.8;1"
+          values="M0 172H1000;M0 174H1000;M0 181H1000;M0 201H1000;M0 233H1000;M0 281H1000"/>
+        <animate attributeName="opacity" dur="4s" repeatCount="indefinite" begin="-0.5s"
+          keyTimes="0;0.15;0.85;1" values="0;0.75;0.75;0"/>
+      </path>
+      <path d="M0 172H1000" opacity="0">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite" begin="-1s"
+          keyTimes="0;0.2;0.4;0.6;0.8;1"
+          values="M0 172H1000;M0 174H1000;M0 181H1000;M0 201H1000;M0 233H1000;M0 281H1000"/>
+        <animate attributeName="opacity" dur="4s" repeatCount="indefinite" begin="-1s"
+          keyTimes="0;0.15;0.85;1" values="0;0.75;0.75;0"/>
+      </path>
+      <path d="M0 172H1000" opacity="0">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite" begin="-1.5s"
+          keyTimes="0;0.2;0.4;0.6;0.8;1"
+          values="M0 172H1000;M0 174H1000;M0 181H1000;M0 201H1000;M0 233H1000;M0 281H1000"/>
+        <animate attributeName="opacity" dur="4s" repeatCount="indefinite" begin="-1.5s"
+          keyTimes="0;0.15;0.85;1" values="0;0.75;0.75;0"/>
+      </path>
+      <path d="M0 172H1000" opacity="0">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite" begin="-2s"
+          keyTimes="0;0.2;0.4;0.6;0.8;1"
+          values="M0 172H1000;M0 174H1000;M0 181H1000;M0 201H1000;M0 233H1000;M0 281H1000"/>
+        <animate attributeName="opacity" dur="4s" repeatCount="indefinite" begin="-2s"
+          keyTimes="0;0.15;0.85;1" values="0;0.75;0.75;0"/>
+      </path>
+      <path d="M0 172H1000" opacity="0">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite" begin="-2.5s"
+          keyTimes="0;0.2;0.4;0.6;0.8;1"
+          values="M0 172H1000;M0 174H1000;M0 181H1000;M0 201H1000;M0 233H1000;M0 281H1000"/>
+        <animate attributeName="opacity" dur="4s" repeatCount="indefinite" begin="-2.5s"
+          keyTimes="0;0.15;0.85;1" values="0;0.75;0.75;0"/>
+      </path>
+      <path d="M0 172H1000" opacity="0">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite" begin="-3s"
+          keyTimes="0;0.2;0.4;0.6;0.8;1"
+          values="M0 172H1000;M0 174H1000;M0 181H1000;M0 201H1000;M0 233H1000;M0 281H1000"/>
+        <animate attributeName="opacity" dur="4s" repeatCount="indefinite" begin="-3s"
+          keyTimes="0;0.15;0.85;1" values="0;0.75;0.75;0"/>
+      </path>
+      <path d="M0 172H1000" opacity="0">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite" begin="-3.5s"
+          keyTimes="0;0.2;0.4;0.6;0.8;1"
+          values="M0 172H1000;M0 174H1000;M0 181H1000;M0 201H1000;M0 233H1000;M0 281H1000"/>
+        <animate attributeName="opacity" dur="4s" repeatCount="indefinite" begin="-3.5s"
+          keyTimes="0;0.15;0.85;1" values="0;0.75;0.75;0"/>
+      </path>
+    </g>
+  </g>
+
+  <g font-family="Avenir Next, Futura, Century Gothic, Helvetica Neue, Arial, sans-serif" text-anchor="middle">
+    <text x="500" y="54" font-size="35" letter-spacing="13" font-weight="500"
+          fill="#ffe9f4" filter="url(#textglow)">ISHAAN NASIR</text>
+    <text x="500" y="54" font-size="35" letter-spacing="13" font-weight="500" fill="#fff8fc">ISHAAN NASIR</text>
+  </g>
+</svg>
