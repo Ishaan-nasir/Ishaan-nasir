@@ -37,6 +37,9 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: ""
 
+      - name: Strip radar, language donut and star/fork counts
+        run: python3 .github/scripts/strip_3d.py profile-3d-contrib/*.svg
+
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"

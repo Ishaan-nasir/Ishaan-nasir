@@ -20,6 +20,7 @@ B.Tech Computer Science, Manipal University Jaipur · 2025–2029
 |---|---|---|
 | [heri8age.in](https://heri8age.in) | D2C storefront | inventory reservation, GST and FY-scoped invoicing, fulfilment, admin portal |
 | [heartartsindia.com](https://heartartsindia.com) | Client site | Next.js + Supabase, 94-key CMS with admin interfaces |
+| [onca-waitlist](https://onca-waitlist-navy.vercel.app/) | Landing page | waitlist capture and early-access signup for ONCA |
 | [mt5-mac-python-bridge](https://github.com/Ishaan-nasir/mt5-mac-python-bridge) | Tooling | runs MetaTrader 5 from Python on macOS without Wine, Docker or a VPS |
 | [SnapCal](https://github.com/Ishaan-nasir/SnapCal) | Utility | timetable photo → editable grid → calendar export |
 
