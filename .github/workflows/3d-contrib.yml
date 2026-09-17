@@ -37,7 +37,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: ""
 
-      - name: Strip radar, language donut and star/fork counts
+      - name: Remove star and fork counters
         run: python3 .github/scripts/strip_3d.py profile-3d-contrib/*.svg
 
       - name: Commit if changed
