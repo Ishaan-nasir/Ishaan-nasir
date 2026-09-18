@@ -36,7 +36,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: ""
-          WEEKS: "13"
+          WEEKS: "18"
 
       - name: Remove star and fork counters
         run: python3 .github/scripts/strip_3d.py profile-3d-contrib/*.svg
