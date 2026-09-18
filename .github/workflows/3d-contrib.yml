@@ -31,11 +31,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+      - uses: Ishaan-nasir/github-profile-3d-contrib@839fa36715d227d4f72f1a8229d31a6ab3a71b3e # weeks-window
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: ""
+          WEEKS: "13"
 
       - name: Remove star and fork counters
         run: python3 .github/scripts/strip_3d.py profile-3d-contrib/*.svg
