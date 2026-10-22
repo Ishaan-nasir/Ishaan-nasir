@@ -1,6 +1,6 @@
 <img src="assets/banner.svg" width="100%" alt="Ishaan Nasir">
 
-I build AI systems that are cool - "i think so atleast" - deterministic validators, provenance guards, typed tool registries — and the tooling that enforces those constraints across every project I ship.
+I build AI systems that are cool - "i think so atleast" - deterministic validators, provenance guards, typed tool registries and the tooling that enforces those constraints across every project I ship.
 
 B.Tech Computer Science, Manipal University Jaipur · 2025–2029
 
@@ -30,12 +30,12 @@ Five Claude Code skills that encode engineering discipline as something the mode
 
 They get pointed at my own production repositories, not sample projects. The security audit found four HIGH-severity issues in Clyve, including a prompt-injection path, each closed with a reproduction.
 
-- [`reasoning-core`](https://github.com/Ishaan-nasir/reasoning-core) — gated phases, source discipline that forbids recall for versioned APIs, and a detector for its own failure mode: artifacts produced as decoration around a conclusion already committed to
-- [`handover`](https://github.com/Ishaan-nasir/handover) — compresses a working session into a resumable state document, so a long solo build survives context resets instead of restarting from explanation
+- [`reasoning-core`](https://github.com/Ishaan-nasir/reasoning-core) — gated phases, source discipline that forbids recall for versioned APIs, and a detector for its own failure mode: artifacts produced as decoration around a conclusion already committed to (v2 Coming soon)
+- [`handover`](https://github.com/Ishaan-nasir/handover) — compresses a working session into a resumable state document, so a long solo build survives context resets instead of restarting from explanation (v2 Coming soon)
 
 ### Elsewhere
 
-Smart India Hackathon 2026 — top 95 of 700+ teams · Dev Relay — third place, Team Redact · Google Developer Groups on Campus, MUJ — Technical Team
+Smart India Hackathon 2026 — top 95 of 700+ teams · Dev Relay Hackathon - Second place, Team Redact · Google Developer Groups on Campus, MUJ — Technical Team
 
 ```
 languages    TypeScript · Python · SQL
