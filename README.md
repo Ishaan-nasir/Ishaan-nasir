@@ -1,6 +1,6 @@
 <img src="assets/banner.svg" width="100%" alt="Ishaan Nasir">
 
-I build AI systems that check their own work — deterministic validators, provenance guards, typed tool registries — and the tooling that enforces those constraints across every project I ship.
+I build AI systems that are cool - "i think so atleast" - deterministic validators, provenance guards, typed tool registries — and the tooling that enforces those constraints across every project I ship.
 
 B.Tech Computer Science, Manipal University Jaipur · 2025–2029
 
