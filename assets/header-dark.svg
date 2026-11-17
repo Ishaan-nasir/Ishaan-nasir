@@ -4,13 +4,9 @@
     .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
     @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
     .cur{animation:blink 1.1s step-end infinite}
-    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-    .in{animation:rise .6s ease-out both}
-    .d1{animation-delay:.15s}.d2{animation-delay:.3s}
-    @media (prefers-reduced-motion:reduce){.cur,.in{animation:none}}
   </style>
-  <text x="0" y="30" class="mono in" font-size="15" fill="#8b949e">~/ishaan-nasir</text>
-  <text x="0" y="92" class="sans in d1" font-size="54" font-weight="650" letter-spacing="-1.5" fill="#e6edf3">Ishaan Nasir<tspan class="cur" dx="6" font-weight="300" fill="#3fb950">_</tspan></text>
-  <text x="0" y="132" class="mono in d2" font-size="17" fill="#8b949e">applied AI <tspan fill="#30363d">/</tspan> financial infrastructure <tspan fill="#30363d">/</tspan> voice agents <tspan fill="#30363d">/</tspan> agent tooling</text>
+  <text x="0" y="30" class="mono" font-size="15" fill="#8b949e">~/ishaan-nasir</text>
+  <text x="0" y="92" class="sans" font-size="54" font-weight="650" letter-spacing="-1.5" fill="#e6edf3">Ishaan Nasir<tspan class="cur" dx="6" font-weight="300" fill="#3fb950">_</tspan></text>
+  <text x="0" y="132" class="mono" font-size="17" fill="#8b949e">applied AI <tspan fill="#30363d">/</tspan> financial infrastructure <tspan fill="#30363d">/</tspan> voice agents <tspan fill="#30363d">/</tspan> agent tooling</text>
   <line x1="0" y1="165" x2="1000" y2="165" stroke="#30363d" stroke-width="1"/>
 </svg>
