@@ -7,16 +7,14 @@ CS student at Manipal University Jaipur (2025 to 2029). Right now I'm building M
 
 ### Working on
 
-**[Metior](https://getmetior.com)**&ensp;<sub>[getmetior.com](https://getmetior.com), waitlist open</sub><br>
-Bookkeeping and GST drafts for Indian small businesses. It reads bills, invoices and bank alerts from Gmail, keeps the ledger and prepares GST drafts for the CA to approve. Before anything is posted, a rules layer checks the totals, GSTIN, amount in words and dates. The model never does the arithmetic: amounts are integers and the ledger is append-only, enforced in Postgres.
+<p>
+<a href="https://getmetior.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-metior-dark.svg"><img src="assets/card-metior-light.svg" width="49%" alt="Metior: bookkeeping and GST drafts for Indian small businesses, waitlist open"></picture></a>
+<a href="https://voiceraft.org"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-voiceraft-dark.svg"><img src="assets/card-voiceraft-light.svg" width="49%" alt="Voiceraft: phone agents that answer calls and book appointments"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-legadoc-dark.svg"><img src="assets/card-legadoc-light.svg" width="49%" alt="LegaDoc: case files for Indian police, Smart India Hackathon 2026"></picture>
+<a href="https://github.com/Ishaan-nasir/reasoning-core"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-skills-dark.svg"><img src="assets/card-skills-light.svg" width="49%" alt="Claude Code skills: reasoning-core and handover"></picture></a>
+</p>
 
-<img src="assets/terminal.svg" width="100%" alt="Metior checking an invoice: totals, GSTIN, amount in words and dates pass, so it is posted. A bill with wrong totals goes to review.">
-
-**[Voiceraft](https://voiceraft.org)**&ensp;<sub>voiceraft.org</sub><br>
-Phone agents for businesses. They answer the call, qualify the caller and book a slot in the calendar while still on the line, in English, French and Hinglish. Each call lands in the client's CRM as a structured record.
-
-**LegaDoc**&ensp;<sub>Smart India Hackathon, team of six</sub><br>
-Case-file system for Indian police: 57 document types and chain of custody across ten roles. I wrote the system design and built the PII redaction service, which sends low-confidence matches to a person for review.
+Skills on GitHub: [`reasoning-core`](https://github.com/Ishaan-nasir/reasoning-core) · [`handover`](https://github.com/Ishaan-nasir/handover)
 
 ### Shipped
 
@@ -27,13 +25,6 @@ Case-file system for Indian police: 57 document types and chain of custody acros
 | [ONCA waitlist](https://onca-waitlist-navy.vercel.app/) | Landing page | early-access signups for ONCA |
 | [mt5-mac-python-bridge](https://github.com/Ishaan-nasir/mt5-mac-python-bridge) | Tool | MetaTrader 5 from Python on macOS, no Wine or VPS |
 | [SnapCal](https://github.com/Ishaan-nasir/SnapCal) | Tool | photo of a timetable to an `.ics` calendar file |
-
-### Claude Code skills
-
-I write skills for Claude Code and run them on my own production repos. The security audit skill found four high-severity issues in Metior, one of them a prompt-injection path. All four are fixed.
-
-- [`reasoning-core`](https://github.com/Ishaan-nasir/reasoning-core): a step-by-step procedure with checkpoints. It won't answer from memory about versioned APIs.
-- [`handover`](https://github.com/Ishaan-nasir/handover): saves a working session to a state file, so a long build picks up where it stopped after a context reset.
 
 ### Stack
 
@@ -53,7 +44,7 @@ security   threat modelling, code audits, C4 system design
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
-  <img src="profile-3d-contrib/profile-green.svg" width="100%" alt="Contribution graph">
+  <img src="profile-3d-contrib/profile-green.svg" width="100%" alt="Contribution graph for the last year">
 </picture>
 
 [Email](mailto:contact.ishaannasir@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ishaan-nasir/) · [getmetior.com](https://getmetior.com) · [voiceraft.org](https://voiceraft.org)

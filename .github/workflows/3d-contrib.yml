@@ -9,8 +9,9 @@
 #   - It renders YOUR real contribution data. The graph is dense from June 2026
 #     onward and sparse before that, which in isometric view reads as a long flat
 #     plain followed by a city. Look at the output before committing the README line.
-#   - The "season" panel is used below deliberately: the full-year panels print
-#     streak counters, and "current streak: 2 days" is not a stat worth publishing.
+#   - Full year (no WEEKS): the language donut and the contribution radar are
+#     only drawn when the whole year is shown. Set WEEKS: "18" to go back to the
+#     trimmed grid without them.
 #   - Regenerates daily. It gets better every month without you touching it.
 #
 # To back out: delete this file and the <img> line. Nothing else depends on it.
@@ -36,7 +37,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: ""
-          WEEKS: "18"
 
       - name: Remove star and fork counters
         run: python3 .github/scripts/strip_3d.py profile-3d-contrib/*.svg
