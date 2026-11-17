@@ -49,6 +49,9 @@ security   threat modelling, code audits, C4 system design
 - Dev Relay Hackathon: second place with Team Redact
 - Google Developer Groups on Campus, MUJ: technical team
 
-<img src="profile-3d-contrib/profile-night-green.svg" width="100%" alt="Contribution graph">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
+  <img src="profile-3d-contrib/profile-green.svg" width="100%" alt="Contribution graph">
+</picture>
 
 [Email](mailto:contact.ishaannasir@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ishaan-nasir/) · [voiceraft.org](https://voiceraft.org)
