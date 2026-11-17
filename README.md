@@ -3,12 +3,14 @@
   <img src="assets/header-light.svg" width="100%" alt="Ishaan Nasir">
 </picture>
 
-CS student at Manipal University Jaipur (2025 to 2029). Right now I'm building Clyve, an accounting tool for Indian CAs, and Voiceraft, which answers phone calls for businesses. I also write Claude Code skills and use them on my own projects.
+CS student at Manipal University Jaipur (2025 to 2029). Right now I'm building Metior, bookkeeping software for Indian small businesses, and Voiceraft, which answers phone calls for businesses. I also write Claude Code skills and use them on my own projects.
 
 ### Working on
 
-**Clyve**&ensp;<sub>private</sub><br>
-Accounting software for Indian CAs and small businesses. Scanned invoices go through OCR and a model, then a rules layer checks totals, GSTIN, amount in words and dates before anything is posted. The model never does the arithmetic. Amounts are stored as integers and the ledger is append-only, enforced in Postgres.
+**[Metior](https://getmetior.com)**&ensp;<sub>[getmetior.com](https://getmetior.com), waitlist open</sub><br>
+Bookkeeping and GST drafts for Indian small businesses. It reads bills, invoices and bank alerts from Gmail, keeps the ledger and prepares GST drafts for the CA to approve. Before anything is posted, a rules layer checks the totals, GSTIN, amount in words and dates. The model never does the arithmetic: amounts are integers and the ledger is append-only, enforced in Postgres.
+
+<img src="assets/terminal.svg" width="100%" alt="Metior checking an invoice: totals, GSTIN, amount in words and dates pass, so it is posted. A bill with wrong totals goes to review.">
 
 **[Voiceraft](https://voiceraft.org)**&ensp;<sub>voiceraft.org</sub><br>
 Phone agents for businesses. They answer the call, qualify the caller and book a slot in the calendar while still on the line, in English, French and Hinglish. Each call lands in the client's CRM as a structured record.
@@ -28,7 +30,7 @@ Case-file system for Indian police: 57 document types and chain of custody acros
 
 ### Claude Code skills
 
-I write skills for Claude Code and run them on my own production repos. The security audit skill found four high-severity issues in Clyve, one of them a prompt-injection path. All four are fixed.
+I write skills for Claude Code and run them on my own production repos. The security audit skill found four high-severity issues in Metior, one of them a prompt-injection path. All four are fixed.
 
 - [`reasoning-core`](https://github.com/Ishaan-nasir/reasoning-core): a step-by-step procedure with checkpoints. It won't answer from memory about versioned APIs.
 - [`handover`](https://github.com/Ishaan-nasir/handover): saves a working session to a state file, so a long build picks up where it stopped after a context reset.
@@ -54,4 +56,4 @@ security   threat modelling, code audits, C4 system design
   <img src="profile-3d-contrib/profile-green.svg" width="100%" alt="Contribution graph">
 </picture>
 
-[Email](mailto:contact.ishaannasir@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ishaan-nasir/) · [voiceraft.org](https://voiceraft.org)
+[Email](mailto:contact.ishaannasir@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ishaan-nasir/) · [getmetior.com](https://getmetior.com) · [voiceraft.org](https://voiceraft.org)
