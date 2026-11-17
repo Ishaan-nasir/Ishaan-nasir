@@ -3,7 +3,7 @@
   <img src="assets/header-light.svg" width="100%" alt="Ishaan Nasir">
 </picture>
 
-I'm studying Computer Science at Manipal University Jaipur (2025 to 2029). I build AI products for work where a wrong number costs real money, so most of my code is the checking layer around the model.
+CS student at Manipal University Jaipur (2025 to 2029). Right now I'm building Clyve, an accounting tool for Indian CAs, and Voiceraft, which answers phone calls for businesses. I also write Claude Code skills and use them on my own projects.
 
 ### Working on
 
@@ -45,7 +45,7 @@ security   threat modelling, code audits, C4 system design
 
 ### Elsewhere
 
-- Smart India Hackathon 2026: top 95 of 700+ teams
+- Smart India Hackathon 2026: top 95
 - Dev Relay Hackathon: second place with Team Redact
 - Google Developer Groups on Campus, MUJ: technical team
 
