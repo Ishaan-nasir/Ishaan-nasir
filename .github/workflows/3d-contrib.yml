@@ -9,9 +9,8 @@
 #   - It renders YOUR real contribution data. The graph is dense from June 2026
 #     onward and sparse before that, which in isometric view reads as a long flat
 #     plain followed by a city. Look at the output before committing the README line.
-#   - Full year (no WEEKS): the language donut and the contribution radar are
-#     only drawn when the whole year is shown. Set WEEKS: "18" to go back to the
-#     trimmed grid without them.
+#   - WEEKS trims the grid; WINDOW_STATS keeps the donut and radar beside it.
+#     Both need the fork at the commit that adds WINDOW_STATS (pin below).
 #   - Regenerates daily. It gets better every month without you touching it.
 #
 # To back out: delete this file and the <img> line. Nothing else depends on it.
@@ -32,11 +31,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: Ishaan-nasir/github-profile-3d-contrib@839fa36715d227d4f72f1a8229d31a6ab3a71b3e # weeks-window
+      - uses: Ishaan-nasir/github-profile-3d-contrib@6b476cd14d65f32063769d5ab7ce9c40f3e769b0 # weeks-window + window-stats
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: ""
+          WEEKS: "22"           # from 21 June 2026, when commits pick up
+          WINDOW_STATS: "true"  # keep the language donut and radar with the window
 
       - name: Remove star and fork counters
         run: python3 .github/scripts/strip_3d.py profile-3d-contrib/*.svg
