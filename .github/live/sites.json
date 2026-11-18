@@ -1,0 +1,27 @@
+[
+  {
+    "name": "getmetior.com",
+    "url": "https://getmetior.com",
+    "kind": "waitlist"
+  },
+  {
+    "name": "voiceraft.org",
+    "url": "https://voiceraft.org",
+    "kind": "product"
+  },
+  {
+    "name": "heri8age.in",
+    "url": "https://heri8age.in",
+    "kind": "store"
+  },
+  {
+    "name": "heartartsindia.com",
+    "url": "https://heartartsindia.com",
+    "kind": "client"
+  },
+  {
+    "name": "onca waitlist",
+    "url": "https://onca-waitlist-navy.vercel.app/",
+    "kind": "landing"
+  }
+]

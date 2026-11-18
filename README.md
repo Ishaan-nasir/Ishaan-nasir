@@ -5,13 +5,13 @@
 
 CS student at Manipal University Jaipur (2025 to 2029). Right now I'm building Metior, bookkeeping software for Indian small businesses, and Voiceraft, which answers phone calls for businesses. I also write Claude Code skills and use them on my own projects.
 
-### Working on
-
 <p>
-<a href="https://getmetior.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-metior-dark.svg"><img src="assets/card-metior-light.svg" width="49%" alt="Metior: bookkeeping and GST drafts for Indian small businesses, waitlist open"></picture></a>
-<a href="https://voiceraft.org"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-voiceraft-dark.svg"><img src="assets/card-voiceraft-light.svg" width="49%" alt="Voiceraft: phone agents that answer calls and book appointments"></picture></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-legadoc-dark.svg"><img src="assets/card-legadoc-light.svg" width="49%" alt="LegaDoc: case files for Indian police, Smart India Hackathon 2026"></picture>
-<a href="https://github.com/Ishaan-nasir/reasoning-core"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-skills-dark.svg"><img src="assets/card-skills-light.svg" width="49%" alt="Claude Code skills: reasoning-core and handover"></picture></a>
+<a href="https://getmetior.com"><img src="assets/h-metior.svg" width="65%" alt="Metior: bookkeeping and GST drafts for Indian small businesses"></a>
+<a href="https://voiceraft.org"><img src="assets/h-voiceraft.svg" width="34%" alt="Voiceraft: phone agents"></a>
+<br>
+<img src="assets/h-legadoc.svg" width="32.8%" alt="LegaDoc">
+<a href="https://github.com/Ishaan-nasir/reasoning-core"><img src="assets/h-skills.svg" width="32.8%" alt="Claude Code skills"></a>
+<img src="assets/live.svg" width="32.8%" alt="Live sites and whether each is up right now">
 </p>
 
 Skills on GitHub: [`reasoning-core`](https://github.com/Ishaan-nasir/reasoning-core) · [`handover`](https://github.com/Ishaan-nasir/handover)
@@ -26,25 +26,16 @@ Skills on GitHub: [`reasoning-core`](https://github.com/Ishaan-nasir/reasoning-c
 | [mt5-mac-python-bridge](https://github.com/Ishaan-nasir/mt5-mac-python-bridge) | Tool | MetaTrader 5 from Python on macOS, no Wine or VPS |
 | [SnapCal](https://github.com/Ishaan-nasir/SnapCal) | Tool | photo of a timetable to an `.ics` calendar file |
 
+### Elsewhere
+
+- Dev Relay Hackathon: second place with Team Redact
+- Smart India Hackathon 2026: top 95 with LegaDoc
+- Google Developer Groups on Campus, MUJ: technical team
+
 ### Stack
 
 <img src="https://skillicons.dev/icons?i=ts,python,postgres,supabase,nextjs,react,fastapi,docker,git&theme=dark" height="40" alt="TypeScript, Python, Postgres, Supabase, Next.js, React, FastAPI, Docker, Git">
 
-```
-backend    Postgres row-level security, job queues, FastAPI
-ai         MCP tool design, retrieval, eval harnesses, local quantized models
-security   threat modelling, code audits, C4 system design
-```
-
-### Elsewhere
-
-- Smart India Hackathon 2026: top 95
-- Dev Relay Hackathon: second place with Team Redact
-- Google Developer Groups on Campus, MUJ: technical team
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
-  <img src="profile-3d-contrib/profile-green.svg" width="100%" alt="Contribution graph for the last year">
-</picture>
+<img src="profile-3d-contrib/profile-night-green.svg" width="100%" alt="Contribution graph since June 2026">
 
 [Email](mailto:contact.ishaannasir@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ishaan-nasir/) · [getmetior.com](https://getmetior.com) · [voiceraft.org](https://voiceraft.org)
