@@ -28,9 +28,9 @@ Skills on GitHub: [`reasoning-core`](https://github.com/Ishaan-nasir/reasoning-c
 
 ### Elsewhere
 
-- Dev Relay Hackathon: second place with Team Redact
-- Smart India Hackathon 2026: top 95 with LegaDoc
-- Google Developer Groups on Campus, MUJ: technical team
+- Dev Relay Hackathon: Second place with Team Redact
+- Smart India Hackathon 2026: top 95 on campus with Project: LegaDoc
+- Google Developer Groups on Campus, MUJ: Core team
 
 ### Stack
 
